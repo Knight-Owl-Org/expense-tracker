@@ -1,0 +1,29 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: sans-serif; background: #f0f2f5; color: #333; }
+.app { max-width: 800px; margin: 0 auto; padding: 20px; }
+h1 { text-align: center; margin-bottom: 20px; font-size: 2rem; }
+.card { background: white; border-radius: 12px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.card h2 { margin-bottom: 15px; }
+form { display: flex; flex-direction: column; gap: 10px; }
+input, select { padding: 10px; border: 1px solid #ddd; border-radius: 8px; font-size: 1rem; }
+button { padding: 10px; background: #4f46e5; color: white; border: none; border-radius: 8px; cursor: pointer; font-size: 1rem; }
+button:hover { background: #4338ca; }
+.error { color: red; margin-bottom: 10px; }
+.filter-bar { display: flex; align-items: center; gap: 10px; margin-bottom: 20px; }
+.filter-bar select { padding: 8px; border-radius: 8px; border: 1px solid #ddd; }
+.expense-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.expense-item { display: flex; justify-content: space-between; align-items: center; padding: 12px; background: #f9f9f9; border-radius: 8px; }
+.expense-info { display: flex; flex-direction: column; gap: 4px; }
+.expense-title { font-weight: bold; }
+.expense-category { font-size: 0.8rem; background: #e0e7ff; color: #4f46e5; padding: 2px 8px; border-radius: 12px; width: fit-content; }
+.expense-date { font-size: 0.8rem; color: #888; }
+.expense-note { font-size: 0.8rem; color: #aaa; font-style: italic; }
+.expense-right { display: flex; align-items: center; gap: 10px; }
+.expense-amount { font-weight: bold; font-size: 1.1rem; color: #4f46e5; }
+.delete-btn { background: #ef4444; padding: 6px 12px; font-size: 0.85rem; }
+.delete-btn:hover { background: #dc2626; }
+.summary-row { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+.summary-cat { width: 120px; font-size: 0.9rem; }
+.bar-bg { flex: 1; background: #e5e7eb; border-radius: 4px; height: 12px; }
+.bar-fill { background: #4f46e5; height: 100%; border-radius: 4px; transition: width 0.3s; }
+.summary-amount { width: 70px; text-align: right; font-size: 0.9rem; }
